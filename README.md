@@ -7,7 +7,7 @@ Organism design components for React Native - Complex UI patterns built from ato
 - 🎨 **Material Design 3** - Modern, accessible UI components
 - ⚛️ **Pure React Native** - No external UI library dependencies
 - 🧬 **Atomic Design** - Complex patterns (organisms) built from atoms
-- 🌓 **Theme Support** - Built-in light/dark mode via `@umituz/react-native-theme`
+- 🌓 **Theme Support** - Built-in light/dark mode via `@umituz/react-native-design-system-theme`
 - 📱 **Responsive** - Adaptive layouts for phones and tablets
 - ♿ **Accessible** - WCAG AA compliant components
 - 📦 **Zero Config** - Works out of the box
@@ -22,7 +22,7 @@ npm install @umituz/react-native-design-system-organisms
 ### Peer Dependencies
 
 ```bash
-npm install @umituz/react-native-design-system-atoms @umituz/react-native-theme
+npm install @umituz/react-native-design-system-atoms @umituz/react-native-design-system-theme
 npm install react@18.3.1 react-native@0.76.3 react-native-safe-area-context@^5.6.2
 ```
 
@@ -62,10 +62,10 @@ const MyScreen = () => {
 
 ## 🌓 Theme Integration
 
-This package requires `@umituz/react-native-theme` and `@umituz/react-native-design-system-atoms`:
+This package requires `@umituz/react-native-design-system-theme` and `@umituz/react-native-design-system-atoms`:
 
 ```typescript
-import { ThemeProvider } from '@umituz/react-native-theme';
+import { ThemeProvider } from '@umituz/react-native-design-system-theme';
 import { ScreenLayout } from '@umituz/react-native-design-system-organisms';
 
 const App = () => (

@@ -26,7 +26,7 @@
 import React, { useMemo } from 'react';
 import { View, ScrollView, StyleSheet, ViewStyle } from 'react-native';
 import { SafeAreaView, Edge } from 'react-native-safe-area-context';
-import { useAppDesignTokens } from '@umituz/react-native-theme';
+import { useAppDesignTokens } from '@umituz/react-native-design-system-theme';
 
 export interface ScreenLayoutProps {
   /**

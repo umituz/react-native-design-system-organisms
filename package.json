@@ -27,7 +27,7 @@
   "peerDependencies": {
     "@umituz/react-native-design-system-atoms": "*",
     "@umituz/react-native-design-system-responsive": "*",
-    "@umituz/react-native-theme": "*",
+    "@umituz/react-native-design-system-theme": "*",
     "react": ">=18.2.0 || ^19.0.0",
     "react-native": ">=0.74.0",
     "react-native-safe-area-context": "^5.6.2"
