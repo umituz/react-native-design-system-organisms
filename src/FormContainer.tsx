@@ -53,7 +53,7 @@ import {
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useAppDesignTokens } from '@umituz/react-native-theme';
-import { useResponsive } from '../hooks/useResponsive';
+import { useResponsive } from '@umituz/react-native-design-system-responsive';
 
 /**
  * Props for FormContainer component
